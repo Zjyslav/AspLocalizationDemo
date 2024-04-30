@@ -1,4 +1,5 @@
-﻿@inject IViewLocalizer Localizer
+﻿@model HomeIndexViewModel
+@inject IViewLocalizer Localizer
 
 @{
     ViewData["Title"] = Localizer["Title"];
@@ -7,4 +8,9 @@
 <div class="text-center">
     <h1 class="display-4">@Localizer["Header"]</h1>
     <p>@Localizer["Message"]</p>
+</div>
+
+<div>
+    <h2>@Localizer["MessageFromControllerHeader"]</h2>
+    <p>@Model.Message</p>
 </div>

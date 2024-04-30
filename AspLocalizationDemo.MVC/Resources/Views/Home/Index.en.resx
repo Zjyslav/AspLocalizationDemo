@@ -123,6 +123,9 @@
   <data name="Message" xml:space="preserve">
     <value>This site in itself has not worthwile content, but the fact that it has multiple language versions is its main reason to exist.</value>
   </data>
+  <data name="MessageFromControllerHeader" xml:space="preserve">
+    <value>Message from the Controller</value>
+  </data>
   <data name="Title" xml:space="preserve">
     <value>Demo of Localization in ASP.NET Core</value>
   </data>
